@@ -1,0 +1,8 @@
+id,race_id,name,age,state,date_of_death,relationship
+,1,The Doctor,900,Active,,other
+,2,Rose Tyler,25,Active,,other
+,2,Martha Jones,28,Active,,other
+,2,Donna Noble,32,Active,,other
+,3,Dalek Sec,,Inactive,2007-06-23,other
+,4,Cyberman Leader,,Inactive,2006-07-08,other
+,5,Commander Strax,,Active,,other

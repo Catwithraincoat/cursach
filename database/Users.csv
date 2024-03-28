@@ -1,0 +1,4 @@
+id,character_id,password_hash,login
+,2,123456,rose_tyler
+,3,789012,martha_jones
+,4,345678,donna_noble
