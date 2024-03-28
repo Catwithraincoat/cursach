@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Staatliches";
+    src: url("./fonts/Staatliches-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("./fonts/SpaceMono-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("./fonts/SpaceMono-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: SpaceMono;
+}
+main {
+    margin: 0px auto;
+    color: #fff;
+    font-family: SpaceMono;
+    font-size: 16px;
+}
+button, input, textarea {
+    font-family: SpaceMono;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    font-family: Staatliches;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+.btn-white {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    width: fit-content;
+}
+.btn-blue {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #272635;
+    border-radius: 5px;
+    background: #B1E5F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    width: fit-content;
+}
+.columns-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.home-link {
+    font-size: 5em;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    cursor: pointer;
+    a {
+        color: #fff;
+    }
+}
+.table-container {
+    table {
+        width: 1200px;
+        border: none;
+    }
+    th {
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    td {
+        color: #A6A6A8;
+        padding-bottom: 10px;
+        min-width: 200px;
+    }
+}
